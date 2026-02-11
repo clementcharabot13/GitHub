@@ -1,0 +1,32 @@
+# 📘 Assignment: FastAPI REST APIs
+
+## 🎯 Objective
+
+Build a small REST API with FastAPI to practice routing, request validation, and JSON responses.
+
+## 📝 Tasks
+
+### 🛠️	Create Core Endpoints
+
+#### Description
+Set up a FastAPI app with endpoints to create, read, update, and delete items in an in-memory list.
+
+#### Requirements
+Completed program should:
+
+- Define an `Item` model with `id`, `name`, and `price`
+- Implement CRUD endpoints: `GET /items`, `GET /items/{id}`, `POST /items`, `PUT /items/{id}`, `DELETE /items/{id}`
+- Return JSON responses with clear success and error messages
+
+
+### 🛠️	Add Validation and Error Handling
+
+#### Description
+Ensure requests are validated and the API responds with appropriate status codes when something goes wrong.
+
+#### Requirements
+Completed program should:
+
+- Validate request bodies using Pydantic models
+- Return `404` when an item does not exist
+- Return `400` when input data is invalid
