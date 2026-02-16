@@ -1,7 +1,6 @@
 # GitHub Learning Path
 
 ## Modules
-
 1. Introduction to GitHub
 2. Communicate Using Markdown
 3. GitHub Pages
